@@ -2,7 +2,7 @@
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border-style: none;">
   <span class="navbar-toggler-icon"></span>
   </button>
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
     <img src="/img/an-icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
     Anonymous
   </a>
