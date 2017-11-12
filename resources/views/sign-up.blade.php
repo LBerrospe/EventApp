@@ -1,6 +1,7 @@
-@extends('template-signed')
+@extends('_templates/template-signed')
 
 @section('content')
+<div class="container">
   <form class="form-signup">
     <div class="row">
       <div class="form-group col-md-6">
@@ -91,4 +92,5 @@
     </div>
     <button class="btn btn-lg btn-outline-success btn-block" type="submit">signin in</button>
   </form>
+</div>
 @endsection

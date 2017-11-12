@@ -1,6 +1,7 @@
-@extends('template-unsigned')
+@extends('_templates/template-unsigned')
 
 @section('content')
+<div class="container">
   <form class="form-signin">
     <h2 class="form-signin-heading">Please signin in</h2>
     <label for="inputEmail" class="sr-only">Email address</label>
@@ -14,4 +15,5 @@
     </div>
     <button class="btn btn-lg btn-outline-success btn-block" type="submit">signin in</button>
   </form>
+</div>
 @endsection
