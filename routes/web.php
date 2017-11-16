@@ -11,14 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/SignIn', function () {
-    return view('sign-in');
-});
-
-Route::get('/SignUp', function () {
-    return view('sign-up');
-});
+Route::get('/', 'PageController@welcome')->name('index');
+Route::get('/SignIn', 'PageController@signIn');
+Route::get('/SignUp', 'PageController@signUp');
+Route::resource('students', 'StudentController');
+Route::resource('courses', 'CourseController');

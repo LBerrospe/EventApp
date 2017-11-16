@@ -2,7 +2,8 @@
 
 @section('content')
 <div class="container">
-  <form class="form-signup">
+  <form action="{{ route('students.store') }}" method="POST" class="form-signup">
+    {{ csrf_field() }}
     <div class="row">
       <div class="form-group col-md-6">
         <label class="sr-only" for="name">Name</label>

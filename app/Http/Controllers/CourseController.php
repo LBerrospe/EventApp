@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Student;
 
-class StudentController extends Controller
+class CourseController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -35,22 +34,6 @@ class StudentController extends Controller
      */
     public function store(Request $request)
     {
-      $this->validate($request, [
-        'name' => 'required|max:255'
-      ]);
-      $student = new Student();
-      $student->name = $request->name;
-      $student->lastname = $request->lastname;
-      $student->email = $request->email;
-      $student->password = $request->password;
-      $student->save();
-      // if ($student->save()) {
-      //   echo "something";
-      //   return redirect()->route('student.show');
-      // } else {
-      //   echo "something else";
-      //   return redirect()->route('student.create');
-      // }
         //
     }
 

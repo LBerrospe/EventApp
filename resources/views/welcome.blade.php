@@ -1,47 +1,24 @@
-@extends('_templates/template-unsigned')
+@extends('_templates/template-signed')
 
 @section('content')
-  <div class="container">
-    <div class="row">
-      <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3">
-        <figure class="figure" style="background: red;">
-          <img class="figure-img img-fluid rounded" src="/img/an-icon.png" alt="">
-          <figcaption class="figure-caption">
-            <h3>Title</h3>
-            <h6>Creator</h6>
-          </figcaption>
-        </figure>
-      </div>
+  {{-- Title, something, creator,enroll | add student && add csv && print pdf --}}
+<div class="">
+  <i class="fa fa-user-plus fa-lg" aria-hidden="true"></i>
+  {{-- <i class="fa fa-plus" aria-hidden="true"></i> --}}
+  <i class="fa fa-file-excel-o" aria-hidden="true"></i>
+  <i class="fa fa-print fa-lg" aria-hidden="true"></i>
 
-      <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3">
-        <figure class="figure" style="background: red">
-          <img class="figure-img img-fluid rounded" src="/img/an-icon.png" alt="">
-          <figcaption class="figure-caption">
-            <h3>Title</h3>
-            <h6>Creator</h6>
-          </figcaption>
-        </figure>
-      </div>
+</div>
+{{-- What will learn --}}
+<div class="">
 
-      <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3">
-        <figure class="figure" style="background: red;">
-          <img class="figure-img img-fluid rounded" src="/img/an-icon.png" alt="">
-          <figcaption class="figure-caption">
-            <h3>Title</h3>
-            <h6>Creator</h6>
-          </figcaption>
-        </figure>
-      </div>
+</div>
+{{-- Require --}}
+<div class="">
 
-      <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3">
-        <figure class="figure" style="background: red;">
-          <img class="figure-img img-fluid rounded" src="/img/an-icon.png" alt="">
-          <figcaption class="figure-caption">
-            <h3>Title</h3>
-            <h6>Creator</h6>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-  </div>
+</div>
+{{-- Description --}}
+<div class="">
+
+</div>
 @endsection
